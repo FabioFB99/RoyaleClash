@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SVN-Supercell';
+  src: url('./assets/fonts/SVN-Supercell Magic.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  --primary-color: #488bf4;
+  --dark-blue: #4549a8;
+  --light-blue: #a6f0ff;
+  --primary-green: #519f5c;
+  --primray-red: #dc563f;
+  --primary-yellow-orange: #fb9a00;
+  --primary-font: 'SVN-Supercell';
+  --secondary-font: 'Roboto';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font), sans-serif;
+}
+
+main {
+  min-height: 80vh;
+}
+
+body {
+  background-image: url('https://res.cloudinary.com/dqoiir5ii/image/upload/v1677245557/ClashRoyale/wp2394904_jaz8cn.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.select {
+  border:2px solid black;
+  border-radius: 12px;
+  background-color: #FB9A00;
+  color:white;
+}

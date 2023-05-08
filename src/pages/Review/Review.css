@@ -1,0 +1,46 @@
+.formularioReview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  border: 1px solid var(--primray-red);
+  height: 300px;
+  width: 400px;
+  border-radius: 5%;
+  background-color: var(--primary-color);
+}
+.main-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.inputreview {
+  height: 300px;
+  height: 100px;
+  overflow: scroll;
+}
+.listacomentarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  padding: 1rem;
+}
+.filaval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1.5rem;
+}
+
+@media (max-width: 644px) {
+  .formularioReview {
+    width: 350px;
+  }
+}

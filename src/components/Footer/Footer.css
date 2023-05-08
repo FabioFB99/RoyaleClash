@@ -1,0 +1,31 @@
+h3,
+h4 {
+  color: white;
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}
+
+/* .header-dark {
+  background-color: #dc563f;
+}
+
+.header-light {
+  background-color: #488bf4;
+} */
+
+@media (max-width: 644px) {
+  footer > ul > li > a {
+    font-size: 1em;
+  }
+  footer > ul {
+    font-size: 0.5em;
+    gap: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    padding: 0 0;
+    width: 100vw;
+    gap: 1rem;
+  }
+}

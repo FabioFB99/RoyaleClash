@@ -1,0 +1,35 @@
+.listaitem {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  gap: 1rem;
+  border: 1px solid var(--primray-red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  padding: 2rem;
+}
+.usuario {
+  color: var(--primray-red);
+}
+.header-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .listaitem {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    gap: 1rem;
+    border: 1px solid var(--primray-red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 2rem;
+  }
+}
